@@ -25,10 +25,10 @@ DROP TABLE IF EXISTS Netflix;
 Create table Netflix
 (
 show_id	varchar(6),
-SHOW_type	VARCHAR(10),
+SHOW_type VARCHAR(10),
 title	VARCHAR(150),
 director VARCHAR(210),
-shOW_cast	VARCHAR(850),
+shOW_cast VARCHAR(850),
 country	VARCHAR(250),
 date_added VARCHAR(50),
 release_year INT,
