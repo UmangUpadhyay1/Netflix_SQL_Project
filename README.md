@@ -22,18 +22,19 @@ The data for this project is sourced from the Kaggle dataset:
 
 ```sql
 DROP TABLE IF EXISTS Netflix;
-Create table Netflix (
+Create table Netflix
+(
 show_id	varchar(6),
 SHOW_type	VARCHAR(10),
 title	VARCHAR(150),
-director	VARCHAR(210),
+director VARCHAR(210),
 shOW_cast	VARCHAR(850),
 country	VARCHAR(250),
-date_added	VARCHAR(50),
-release_year	INT,
-rating	VARCHAR(10),
-duration	VARCHAR(15),
-listed_in	VARCHAR(80),
+date_added VARCHAR(50),
+release_year INT,
+rating VARCHAR(10),
+duration VARCHAR(15),
+listed_in VARCHAR(80),
 description VARCHAR(300)
 );
 ```
